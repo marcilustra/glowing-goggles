@@ -30,28 +30,28 @@
             <input type="number" name="quantity" id="numberOfDice"
                 onkeyup="if(!this.checkValidity()){this.value='';alert('Only integer values please!')};">
             <label for="diceTYpe">Select the type of dice</label>
-            <ul class="types">
-                <li id="d4">
-                    <input type="radio" name="d4" id="">
-                    <img src="" alt="" srcset="">
-                </li>
-                <li id="d6">
-                    <input type="radio" name="d6" id="">
-                    <img src="" alt="" srcset="">
-                </li>
-                <li id="d8">
-                    <input type="radio" name="d8" id="">
-                    <img src="" alt="" srcset="">
-                </li>
-                <li id="d12">
-                    <input type="radio" name="d12" id="">
-                    <img src="" alt="" srcset="">
-                </li>
-                <li id="d20">
-                    <input type="radio" name="d20" id="">
-                    <img src="" alt="" srcset="">
-                </li>
-            </ul>
+            <div class="types">
+                <label id="d4">
+                    <input type="radio" name="die" id="d4">
+                    <img src="assets/3520730.png" width="50" height="50" alt="d4 dice">
+                </label>
+                <label id="d6">
+                    <input type="radio" name="die" id="d6">
+                    <img src="assets/3520730.png" width="50" height="50" alt="d6 dice" srcset="">
+                </label>
+                <label id="d8">
+                    <input type="radio" name="die" id="d8">
+                    <img src="assets/3520730.png" width="50" height="50" alt="d6 dice" srcset="">
+                </label>
+                <label id="d12">
+                    <input type="radio" name="die" id="d12">
+                    <img src="assets/3520730.png" width="50" height="50" alt="d6 dice" srcset="">
+                </label>
+                <label id="d20">
+                    <input type="radio" name="die" id="d20">
+                    <img src="assets/3520730.png" width="50" height="50" alt="d6 dice" srcset="">
+                </label>
+            </div>
         </div>
         <div class="output-section">
             <p>Output goes here!</p>

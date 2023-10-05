@@ -27,6 +27,23 @@ label, p {
 
     /* background-color: aliceblue; */
 }
+.types {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+[type=radio] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+[type=radio] + img {
+    cursor: pointer;
+}
+[type=radio]:checked + img {
+    outline: 2px solid rgb(35, 209, 102);
+}
+
 .output-section {
     display: grid;
     grid-template-rows: auto;
