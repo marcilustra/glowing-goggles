@@ -1,0 +1,40 @@
+/* this time, add media rules */
+html {
+    height: 100%;
+    background-color: rgb(38, 27, 56);
+}
+h3 {
+    color: rgb(161, 229, 234);
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    /* text-align: center; */
+    justify-content: space-between;
+}
+label, p {
+    color: rgb(255, 216, 228);
+    font-family: 'Roboto', sans-serif;
+}
+.whole {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.input-section {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 10px;
+    width: 25vw;
+
+    /* background-color: aliceblue; */
+}
+.output-section {
+    display: grid;
+    grid-template-rows: auto;
+    background-color: rgba(60, 255, 203, 0.114);
+    width: 60vw;
+    height: 110%;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
