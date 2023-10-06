@@ -7,7 +7,7 @@ h3 {
     color: rgb(161, 229, 234);
     font-family: 'Roboto Slab', serif;
     font-size: 1.5rem;
-    /* text-align: center; */
+    text-align: right;
     justify-content: space-between;
 }
 label, p {
@@ -34,7 +34,8 @@ label, p {
     width: 60vw;
     height: 110%;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
+    color: rgb(255, 216, 228);
     justify-content: center;
     align-content: center;
 }
