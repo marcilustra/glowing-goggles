@@ -1,4 +1,3 @@
-/* this time, add media rules */
 html {
     height: 100%;
     background-color: rgb(38, 27, 56);
@@ -24,8 +23,6 @@ label, p {
     grid-template-rows: auto;
     row-gap: 10px;
     width: 25vw;
-
-    /* background-color: aliceblue; */
 }
 .output-section {
     display: grid;
