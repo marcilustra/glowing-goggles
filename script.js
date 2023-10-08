@@ -6,6 +6,7 @@
 //Like if the user picks a d6 die type
 let numberOfDice = 0;
 let diceType = 0;
+let rolls = [];
 
 function RollTheDice() {
     //Roll
@@ -17,7 +18,7 @@ function RollTheDice() {
     diceType = diceTypeSelection.value
     numberOfDice = diceInputBox.value;
 
-    if (numberOfDice > 10) {
-        outputBox.innerHTML = (numberOfDice - 10) + " too many dice today for type D" + diceType;
+    for (let i = 0; i <= numberOfDice; i++){
+        //Logic of making new random numbers then outputting them.
     }
 }
