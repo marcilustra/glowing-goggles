@@ -69,7 +69,16 @@
                         $sum += $currentDieValue;
                     }
                     echo ("</p>");
-                    echo ("<p> Total value of the dice roll = $sum</p>");
+                    if ($sum % 6 == 0)
+                    {
+                        if (($sum/6)%6 == 0) {
+                            echo ("<p>A perfect square factor of 6 in this one!</p>");
+                        }
+                    echo ("<p>Amazing! ". ($sum/6). " hexagons! For a value of " . $sum . "</p>");
+                    } else {
+                        echo ("<p> Total value of the dice roll = $sum</p>");
+                    }
+                    
                 }
             ?>
         </div>
